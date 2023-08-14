@@ -1,0 +1,346 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    width: 100%;
+    height: 100%;
+}
+#nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    width: 100%;
+    background-color: orange;
+}
+#logo{
+    margin-right: 80px;
+}
+#menu{
+    font-family: 'Bricolage Grotesque', sans-serif;
+    display: flex;
+    gap: 20px;
+    margin-left: 30px;
+}
+#logo img{
+    height: 100px;
+    width: 100px;
+    text-align: center;
+}
+
+#section{
+    font-size: 30px;
+    margin-right: 60px;
+}
+
+#hero{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(253, 175, 31);
+}
+.left{
+    margin: 30px;
+    text-align: center;
+    font-size: 50px;
+}
+.right{
+    overflow: hidden;
+    padding: 42px 90px;
+}
+.btn button{
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    margin-top: 10px;
+    height: 40px;
+    width: 100px;
+    border-radius: 20px;
+}
+
+#prsnt{
+    background-color:rgb(253, 175, 31) ;
+    height:500px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+#imagesl{
+    width: 100%;
+    height: 400px;
+}
+#imagesr{
+    width: 100%;
+    height: 400px;
+}
+#imagesl img{
+    height: 400px;
+    width: 50vw;
+    margin: -50px 30px;
+    background-color: #fff;
+    border: 3px solid white;
+}
+
+#imagesr img{
+    border: 3px solid white;
+    margin: -50px 30px;
+    height: 400px;
+    width: 50vh;
+    
+}
+
+.text{
+    
+    background-color: rgb(253, 175, 31);
+    text-align: center;
+    font-size: 40px;
+}
+.text span{
+    overflow: hidden;
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+}
+
+.pl{
+   background-color: black;
+   color: #fff;
+   font-size: 30px;
+   text-align: center;
+}
+
+
+.prdts{
+    background-image: url(mod1.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: calc(100% - 69px);
+    /* background-color: rgb(253, 175, 31); */
+}
+.bgpanel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    width: 80vw;
+    height: 580px;
+    background-color: rgb(0, 0, 0);
+}
+.pr1{
+    height: 70%;
+    width: 30%;
+    background-color: black;
+}
+.pr2{
+    height: 250px;
+    width: 20%;
+    background-color: rgb(245, 236, 236);
+}
+.pr2:hover{
+cursor: pointer;
+}
+.pic{
+    position: relative;
+    overflow: hidden;
+}
+.butns button{
+    cursor: pointer;
+    margin-left: 50px;
+    background-color: #ffffffe1;
+    color: #000000;
+    font-size: 1.7rem;
+    font-weight: 600;
+    width: 15vw; 
+    height: 7vh;
+    border-radius:20PX;
+    border: none;
+}
+
+.butnst button{
+    cursor: pointer;
+    margin-right: 10px;
+    margin: auto;
+    background-color: #ffffffe1;
+    color: #000000;
+    font-size: 1.2rem;
+    font-weight: 600;
+    width: 12vw; 
+    height: 5vh;
+    border-radius:20PX;
+    border: none;
+}
+
+.customer{
+    background-image:url(men1.jpg);
+    background-size: cover;
+    height: 98vh;
+    width: 100vw;
+}
+
+.heads{
+    color: #fff;
+    background-color: #000000;
+    font-size: 30px;
+    text-align: center;
+}
+.review{
+    margin-top:30px;
+    margin-left: 30px;
+    background-color: #000000;
+    border-radius: 5px;
+    border:3px solid white;
+    height: 150px;
+    width: 30%;
+}
+
+.review p{
+    position: relative;
+    color: #fff;
+    font-weight: 700;
+}
+.pics{
+    width: 120px;
+   height: 120px;
+   margin-top: 10px;
+   border-radius: 50%;
+   overflow: hidden;
+    margin-left: auto;
+}
+
+.head{
+    
+    color: #fff;
+   
+    background-image: url(bgs2.jpg);
+    background-size: cover;
+    font-size: 30px;
+    text-align: left;
+    padding: 15px 20px;
+}
+.head h1{
+    text-align: center;
+    font-weight: 900;
+}
+
+.about{
+    background-image: url(bgs2.jpg);
+    background-size: cover;
+    width: 100%;
+    height: calc(100% - 80px);
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.rights{
+    margin: 0px auto;
+    height: 60%;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.lefts{
+    margin: 0px auto;
+    height: 60%;
+    width: 40%;
+    border: 1px solid black;
+}
+
+.foot{
+    height: 50px;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 414px) {
+    #nav {
+        height: auto;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #menu {
+        margin: 10px 0;
+    }
+
+    #logo {
+        margin: 20px 0;
+        text-align: center;
+    }
+
+    #section {
+        margin-right: 0;
+    }
+
+    #hero {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .left, .right {
+        text-align: center;
+        margin: 10px;
+    }
+
+    .right {
+        overflow: visible;
+        padding: 20px;
+    }
+
+
+
+
+    #imagesl img,
+    #imagesr img {
+        margin: 10px 0;
+        width: 100%;
+        height: auto;
+    }
+
+    .bgpanel .pr1,
+    .bgpanel .pr2 {
+        width: 100%;
+    }
+
+    .butns button, .butnst button {
+        width: auto;
+    }
+
+    .review {
+        width: 80%;
+        margin: 10px auto;
+    }
+
+    .pics {
+        width: 120px;
+        height: 120px;
+        margin: 10px auto;
+    }
+}
+
+
+
+
+
+
